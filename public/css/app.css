@@ -145,6 +145,78 @@ nav {
     font-weight: bold;
     width: 8rem;
 }
+
+/** third section */
+.another-section h5 {
+    color: rgb(255, 54, 54);
+    font-size: .6rem;
+
+}
+
+.another-section h3 {
+    padding: .5rem;
+    font-size: 2rem;
+}
+
+.contact {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.another-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact .child-form {
+    background-color: rgb(240, 246, 248);
+    border: none;
+    padding: .5rem;
+    font-weight: 550;
+    font-size: .8rem;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 1rem;
+}
+
+.contact .child-form::placeholder {
+    color: #262691;
+    padding: 0.5rem;
+}
+
+textarea {
+    border: none;
+    background-color: rgb(240, 246, 248);
+    width: 100%;
+    border-radius: 5px;
+    resize: none;
+}
+
+textarea::placeholder {
+    color: #262691;
+    font-weight: 550;
+    font-size: .8rem;
+    padding: 1rem;
+}
+
+.Last-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.Last-btn input {
+    width: 8rem;
+    padding: 1rem;
+    background-color: rgb(255, 54, 54);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5rem;
+    font-size: .8rem;
+}
+
 /*! end : ibrahim */
 
 /*^ start : ilyass */
