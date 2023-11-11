@@ -57,6 +57,45 @@ nav {
     color: red;
 }
 
+/** first section */
+.first_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+
+img {
+    width: 90%;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(29, 29, 126);
+}
+
+.text {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button_red {
+    background-color: red;
+    border: solid;
+    border-radius: 35px;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+
+.button_red a {
+    color: white;
+    font-size: medium;
+}
+
 /*& end : ghizlane */
 
 /*! start : ibrahim */
