@@ -220,5 +220,55 @@ textarea::placeholder {
 /*! end : ibrahim */
 
 /*^ start : ilyass */
+footer {
+    color: #818198;
+    background-color: #374b87;
+    color: white;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
 
+.footer-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-title h1 {
+    color: #dc3b50;
+}
+
+.footer-navigation {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-navigation a:hover {
+    border-bottom: 2.5px #dc3b50 solid;
+}
+
+.footer-copyright {
+    font-size: x-small;
+    font-weight: lighter;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-socials a {
+    background-color: #374b87;
+    border-radius: 50%;
+    padding: 0.25rem;
+}
+
+.footer-socials a:hover {
+    color: #374b87;
+    background-color: white;
+}
 /*^ end : ilyass */
